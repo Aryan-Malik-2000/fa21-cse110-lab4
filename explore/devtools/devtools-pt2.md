@@ -1,0 +1,2 @@
+1. The problem is both num1 and num2 are being stored as strings so rather than adding them we are concatinating them 
+2. I would use parseInt when getting the input from the user to make sure they are stored as integers 
