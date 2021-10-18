@@ -32,4 +32,5 @@
     E. false as true will map to 1 and 1 == 2 is false 
     F. true as Boolean of any integer that's not 0 is true and true === true is true 
 15.  == checks the inequality without type conversion as apposed to ===
-17.  
+17.  When we call modifyArray while passing in [1,2,3] and doSomething it will first go into modifyArray and create a new variable newArr which is an empty array. It will then enter the for loop and iterate over [1,2,3] calling doSomething on each value in the array and multiplying the number by 2 before pushing it back into newArr. The end result will be modifyArray returning an array that is the same length as the input but with all the values multiplied by 2 
+19.  1, 4, 3, 2
